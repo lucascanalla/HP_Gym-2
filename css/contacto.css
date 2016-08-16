@@ -1,0 +1,40 @@
+   .row .form {
+ 
+  margin-bottom: 20px;
+
+
+  }
+
+
+
+footer {
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: #f5f5f5;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+h3{
+	margin-left: 0px;
+}
+
+.google-maps {
+position: relative;
+padding-bottom: 75%; // This is the aspect ratio
+height: 0;
+overflow: hidden;
+}
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 50% !important;
+}
